@@ -1,5 +1,8 @@
 ### About this repository:
 
-[Beecrowd](https://www.beecrowd.com.br/) is a digital platform that empowers students and technology professionals by solving different programming challenges. 
+[Beecrowd](https://www.beecrowd.com.br/) is a digital platform that empowers students and technology professionals by solving different programming challenges. This repository is collection of my solutions and were created using JavaScript (`node 12.18.3`) and the IDE Visual Studio Code.
 
-This repository is collection of my solutions.
+**Follow me on:** <br>
+🐝 [beecrowd](https://www.beecrowd.com.br/) <br>
+💻 [codepen](https://codepen.io/jhow_) <br>
+🏀 [dribbble](https://dribbble.com/jesilva)
