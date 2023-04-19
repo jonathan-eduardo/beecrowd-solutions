@@ -1,6 +1,6 @@
 /**
  * beecrowd problem link:
- * https:www.beecrowd.com.br/judge/pt/problems/view/1075
+ * https:www.beecrowd.com.br/judge/pt/problems/view/1078
  *
  * OBS: an account is needed to view the problem
  *
