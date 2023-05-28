@@ -13,11 +13,9 @@ const [X, Y] = input
   .filter((val) => val)
   .map(Number)
   .sort((a, b) => a - b)
-let sum = 0
 
-for (let i = X; i <= Y; i++) {
-  if (i % 13 != 0) {
-    sum += i
+for (let i = X + 1; i < Y; i++) {
+  if (i % 5 == 2 || i % 5 == 3) {
+    console.log(i)
   }
 }
-console.log(sum)
