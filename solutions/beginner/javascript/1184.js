@@ -1,6 +1,6 @@
 /**
  * beecrowd problem link:
- * https:www.beecrowd.com.br/judge/pt/problems/view/1182
+ * https:www.beecrowd.com.br/judge/pt/problems/view/1184
  *
  * OBS: an account is needed to view the problem
  *
@@ -9,13 +9,18 @@
  */
 
 const input = require('fs').readFileSync('./input.txt', 'utf8').split('\n')
-const [column, operation] = [input[0], input[1]]
-const values = input.slice(2)
+const operation = input[0]
 let sum = 0
+let numbers = []
 
 for (let i = 0; i < 12; i++) {
-  sum += +values.slice(i * 12, i * 12 + 12)[column]
+  const row = input.slice(1).slice(i * 12, i * 12 + i)
+  numbers.push(...row)
 }
 
-const result = operation === 'S' ? sum : sum / 12
+for (let i = 0; i < numbers.length; i++) {
+  sum += Number(numbers[i])
+}
+
+const result = operation === 'S' ? sum : sum / 66
 console.log(result.toFixed(1))
